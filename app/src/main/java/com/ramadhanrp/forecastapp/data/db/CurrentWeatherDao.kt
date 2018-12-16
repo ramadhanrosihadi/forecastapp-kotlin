@@ -12,13 +12,12 @@ import com.ramadhanrp.forecastapp.data.db.unitlocalized.MetricCurrentWeatherEntr
 
 @Dao
 interface CurrentWeatherDao {
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun upsert(weatherEntry: CurrentWeatherEntry)
 
     @Query("select * from current_weather where id = $CURRENT_WEATHER_ID")
-    fun getWeatherMetric() : LiveData<MetricCurrentWeatherEntry>
+    fun getWeatherMetric(): LiveData<MetricCurrentWeatherEntry>
 
     @Query("select * from current_weather where id = $CURRENT_WEATHER_ID")
-    fun getWeatherImperial() : LiveData<ImperialCurrentWeatherEntry>
+    fun getWeatherImperial(): LiveData<ImperialCurrentWeatherEntry>
 }

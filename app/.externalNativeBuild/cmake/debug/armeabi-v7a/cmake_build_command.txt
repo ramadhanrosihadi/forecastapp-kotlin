@@ -3,7 +3,7 @@ arguments :
 -H/Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app
 -B/Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/armeabi-v7a
 -DANDROID_ABI=armeabi-v7a
--DANDROID_PLATFORM=android-16
+-DANDROID_PLATFORM=android-26
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/build/intermediates/cmake/debug/obj/armeabi-v7a
 -DCMAKE_BUILD_TYPE=Debug
 -DANDROID_NDK=/Users/cito/Library/Android/sdk/ndk-bundle

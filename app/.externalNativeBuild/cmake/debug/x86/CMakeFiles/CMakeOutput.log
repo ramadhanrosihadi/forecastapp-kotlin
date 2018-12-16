@@ -3,37 +3,37 @@ The host system is: Darwin - 18.0.0 - x86_64
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_c03ef"
-[1/2] Building C object CMakeFiles/cmTC_c03ef.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_c03ef
+Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_dbe7e"
+[1/2] Building C object CMakeFiles/cmTC_dbe7e.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_dbe7e
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3cd56"
-[1/2] Building C object CMakeFiles/cmTC_3cd56.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_3cd56
+Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_1f9b2"
+[1/2] Building C object CMakeFiles/cmTC_1f9b2.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_1f9b2
 Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
-Target: i686-none-linux-android16
+Target: i686-none-linux-android26
 Thread model: posix
 InstalledDir: /Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
 Found candidate GCC installation: /Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Selected GCC installation: /Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86 -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_3cd56 /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_3cd56.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtend_android.o
+ "/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86 -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_1f9b2 /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtbegin_dynamic.o -L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_1f9b2.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3cd56"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_3cd56.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_3cd56]
+  ignore line: [Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_1f9b2"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_1f9b2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_1f9b2]
   ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
-  ignore line: [Target: i686-none-linux-android16]
+  ignore line: [Target: i686-none-linux-android26]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
   ignore line: [Found candidate GCC installation: /Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -42,9 +42,9 @@ Parsed C implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86 -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_3cd56 /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_3cd56.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtend_android.o]
+  link line: [ "/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86 -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_1f9b2 /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtbegin_dynamic.o -L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_1f9b2.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtend_android.o]
     arg [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
-    arg [--sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86] ==> ignore
+    arg [--sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86] ==> ignore
     arg [-pie] ==> ignore
     arg [--enable-new-dtags] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -53,13 +53,13 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3cd56] ==> ignore
-    arg [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [cmTC_1f9b2] ==> ignore
+    arg [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86]
     arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386]
     arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
     arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
-    arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib]
+    arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
     arg [--exclude-libs] ==> ignore
@@ -73,22 +73,22 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_3cd56.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_1f9b2.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtend_android.o] ==> ignore
+    arg [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
   collapse library dir [/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86] ==> [/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86]
   collapse library dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386] ==> [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386]
   collapse library dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
   collapse library dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/i686-linux-android/lib]
-  collapse library dir [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib] ==> [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib]
+  collapse library dir [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib] ==> [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib]
   implicit libs: [dl;c;dl]
-  implicit dirs: [/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/i686-linux-android/lib;/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib]
+  implicit dirs: [/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/i686-linux-android/lib;/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib]
   implicit fwks: []
 
 
@@ -97,9 +97,9 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_c6e27"
-[1/2] Building C object CMakeFiles/cmTC_c6e27.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_c6e27
+Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_2ef76"
+[1/2] Building C object CMakeFiles/cmTC_2ef76.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_2ef76
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -111,9 +111,9 @@ Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" 
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_ffe99"
-[1/2] Building C object CMakeFiles/cmTC_ffe99.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_ffe99
+Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_66a03"
+[1/2] Building C object CMakeFiles/cmTC_66a03.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_66a03
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -125,9 +125,9 @@ Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" 
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_cbb63"
-[1/2] Building C object CMakeFiles/cmTC_cbb63.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_cbb63
+Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a189a"
+[1/2] Building C object CMakeFiles/cmTC_a189a.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_a189a
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -137,37 +137,37 @@ Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_82f7b"
-[1/2] Building CXX object CMakeFiles/cmTC_82f7b.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_82f7b
+Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_7d769"
+[1/2] Building CXX object CMakeFiles/cmTC_7d769.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_7d769
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_462f6"
-[1/2] Building CXX object CMakeFiles/cmTC_462f6.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_462f6
+Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_92b56"
+[1/2] Building CXX object CMakeFiles/cmTC_92b56.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_92b56
 Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
-Target: i686-none-linux-android16
+Target: i686-none-linux-android26
 Thread model: posix
 InstalledDir: /Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
 Found candidate GCC installation: /Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Selected GCC installation: /Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86 -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_462f6 /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_462f6.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtend_android.o
+ "/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86 -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_92b56 /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtbegin_dynamic.o -L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_92b56.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_462f6"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_462f6.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_462f6]
+  ignore line: [Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_92b56"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_92b56.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_92b56]
   ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
-  ignore line: [Target: i686-none-linux-android16]
+  ignore line: [Target: i686-none-linux-android26]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
   ignore line: [Found candidate GCC installation: /Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -176,9 +176,9 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86 -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_462f6 /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_462f6.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtend_android.o]
+  link line: [ "/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86 -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_92b56 /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtbegin_dynamic.o -L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386 -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_92b56.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtend_android.o]
     arg [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
-    arg [--sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86] ==> ignore
+    arg [--sysroot=/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86] ==> ignore
     arg [-pie] ==> ignore
     arg [--enable-new-dtags] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -187,13 +187,13 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_462f6] ==> ignore
-    arg [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [cmTC_92b56] ==> ignore
+    arg [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86]
     arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386]
     arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
     arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
-    arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib]
+    arg [-L/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib] ==> dir [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
     arg [--exclude-libs] ==> ignore
@@ -207,7 +207,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_462f6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_92b56.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
     arg [-lgcc] ==> lib [gcc]
@@ -216,7 +216,7 @@ Parsed CXX implicit link information from above output:
     arg [-lgcc] ==> lib [gcc]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/crtend_android.o] ==> ignore
+    arg [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
@@ -225,9 +225,9 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386] ==> [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386]
   collapse library dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
   collapse library dir [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/i686-linux-android/lib]
-  collapse library dir [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib] ==> [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib]
+  collapse library dir [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib] ==> [/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib]
   implicit libs: [m;dl;c;dl]
-  implicit dirs: [/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/i686-linux-android/lib;/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib]
+  implicit dirs: [/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/i386;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x;/Users/cito/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/i686-linux-android/lib;/Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib]
   implicit fwks: []
 
 
@@ -236,9 +236,9 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_95675"
-[1/2] Building CXX object CMakeFiles/cmTC_95675.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_95675
+Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_5350c"
+[1/2] Building CXX object CMakeFiles/cmTC_5350c.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_5350c
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -303,9 +303,9 @@ Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_424e2"
-[1/2] Building CXX object CMakeFiles/cmTC_424e2.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_424e2
+Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_4f0e8"
+[1/2] Building CXX object CMakeFiles/cmTC_4f0e8.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_4f0e8
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -370,9 +370,9 @@ Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3c458"
-[1/2] Building CXX object CMakeFiles/cmTC_3c458.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_3c458
+Run Build Command:"/Users/cito/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_74f0c"
+[1/2] Building CXX object CMakeFiles/cmTC_74f0c.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_74f0c
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

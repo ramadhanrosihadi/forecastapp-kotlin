@@ -54,8 +54,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/native-lib.cpp
   DEFINES = -Dnative_lib_EXPORTS
   DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o.d
-  FLAGS = -isystem /Users/cito/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fexceptions -O2 -DNDEBUG  -fPIC
-  INCLUDES = -isystem /Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/cito/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
+  FLAGS = -isystem /Users/cito/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fexceptions -O2 -DNDEBUG  -fPIC
+  INCLUDES = -isystem /Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/src/main/cpp/native-lib.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
@@ -67,10 +67,10 @@ build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__nat
 #############################################
 # Link the shared library ../../../../build/intermediates/cmake/release/obj/x86/libnative-lib.so
 
-build ../../../../build/intermediates/cmake/release/obj/x86/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o | /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib/liblog.so
-  LANGUAGE_COMPILE_FLAGS = -isystem /Users/cito/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fexceptions -O2 -DNDEBUG
-  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-16/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
-  LINK_LIBRARIES = -llog -latomic -lm "/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86/libc++_static.a" "/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86/libc++abi.a" "/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86/libandroid_support.a"
+build ../../../../build/intermediates/cmake/release/obj/x86/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o | /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86/usr/lib/liblog.so
+  LANGUAGE_COMPILE_FLAGS = -isystem /Users/cito/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fexceptions -O2 -DNDEBUG
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/cito/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
+  LINK_LIBRARIES = -llog -latomic -lm "/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86/libc++_static.a" "/Users/cito/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86/libc++abi.a"
   OBJECT_DIR = CMakeFiles/native-lib.dir
   POST_BUILD = :
   PRE_LINK = :

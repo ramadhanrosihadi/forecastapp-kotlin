@@ -3,7 +3,7 @@ arguments :
 -H/Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app
 -B/Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/.externalNativeBuild/cmake/release/x86
 -DANDROID_ABI=x86
--DANDROID_PLATFORM=android-16
+-DANDROID_PLATFORM=android-26
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/cito/RamadhanRosihadi/Artcak/AndroidCodes/MyPlayground/forecastapp-kotlin/app/build/intermediates/cmake/release/obj/x86
 -DCMAKE_BUILD_TYPE=Release
 -DANDROID_NDK=/Users/cito/Library/Android/sdk/ndk-bundle

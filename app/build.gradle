@@ -4,11 +4,16 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: "kotlin-kapt"
+
+apply plugin: 'androidx.navigation.safeargs'
+
+
 android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.ramadhanrp.forecastapp"
-        minSdkVersion 16
+        minSdkVersion 26
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -96,7 +101,7 @@ dependencies {
     // Preference
     implementation "androidx.preference:preference:1.0.0"
 
-    // Location
+    // WeatherLocation
     implementation "com.google.android.gms:play-services-location:16.0.0"
 
     // New Material Design

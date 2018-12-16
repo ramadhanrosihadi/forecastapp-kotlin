@@ -20,7 +20,7 @@ data class  CurrentWeatherEntry(
     @SerializedName("last_updated")
     var lastUpdated: String,
     @SerializedName("precip_in")
-    var precipIn: Int,
+    var precipIn: Double,
     @SerializedName("precip_mm")
     var precipMm: Double,
     @SerializedName("temp_c")
